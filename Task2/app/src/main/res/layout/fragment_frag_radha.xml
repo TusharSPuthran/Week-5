@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".frag2_presidentinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/radhakrishann"
+            android:layout_weight="1"
+            tools:src="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="30dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:text="President Name:   "
+            android:textSize="20dp"
+            android:layout_height="30dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/pre_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Sarvepalli Radhakrishnan"
+            ></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="30dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:text="Presidential Period:  "
+            android:textSize="20dp"
+            android:layout_height="30dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/pre_period"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="1962-1967"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="30dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:text="Qualifications:"
+            android:textSize="20dp"
+            android:layout_height="30dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/pre_quali"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="M.A, D. Litt. (Hony.), LL.D"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Achievments:"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/pre_ach"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Promoted education and culture"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
